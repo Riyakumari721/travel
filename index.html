@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour and Travel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>T</span>our</a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#book">book</a>
+      <a href="#services">services</a>
+      <a href="#gallery">gallery</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icon">
+      <i class="fas fa-search" id="search-btn"></i>
+      <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="search here...">
+      <label for="search-bar" class="fas fa-search"></label>
+    </form>
+  </header>
+
+  <div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+      <h3>login</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <input type="submit" value="login now" class="btn">
+      <input type="checkbox" id="remember">
+      <label for="remember">remember me</label>
+      <p>forget password? <a href="#">click here</a></p>
+      <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+  </div>
+
+  <!-- home section starts -->
+  <section class="home" id="home">
+    <div class="content"> 
+      <h3>adventure is worthwhile</h3>
+      <p>discover new places with us, adventure awaits</p>
+      <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+      <span class="vid-btn active" data-src="video-1.mp4"></span>
+      <span class="vid-btn" data-src="video-2.mp4"></span>
+      <span class="vid-btn" data-src="video-3.mp4"></span>
+      <span class="vid-btn" data-src="video-4.mp4"></span>
+    </div>
+
+    <div class="video-container">
+      <video src="video-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+  </section>
+  <!-- home section ends -->
+
+  <!-- book section starts -->
+  <section class="book" id="book">
+    <h1 class="heading">
+      <span>b</span><span>o</span><span>o</span><span>k</span>
+      <span class="space"></span>
+      <span>n</span><span>o</span><span>w</span>
+    </h1>
+
+    <div class="row">
+      <div class="image">
+        <img src="book.jpg" alt="image">
+      </div>
+
+      <form action="">
+        <div class="inputBox">
+          <h3>where to</h3>
+          <input type="text" placeholder="place name">
+        </div>
+        <div class="inputBox">
+          <h3>check in</h3>
+          <input type="date">
+        </div>
+        <div class="inputBox">
+          <h3>check out</h3>
+          <input type="date">
+        </div>
+        <div class="inputBox">
+          <h3>adults</h3>
+          <input type="number" placeholder="number of adults">
+        </div>
+        <div class="inputBox">
+          <h3>children</h3>
+          <input type="number" placeholder="number of children">
+        </div>
+        <div class="inputBox">
+          <h3>rooms</h3>
+          <input type="number" placeholder="number of rooms">
+        </div>
+        <input type="submit" value="book now" class="btn">
+      </form>
+    </div>
+  </section>
+  <!-- book section ends -->
+
+  <!-- packages section starts -->
+  <section class="packages" id="packages">
+    <h1 class="heading">
+      <span>p</span><span>a</span><span>c</span><span>k</span>
+      <span>a</span><span>g</span><span>e</span><span>s</span>
+    </h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="img1.jpeg" alt="image">
+          <div class="content"></div>
+          <h3><i class="fas fa-map-marker-alt"></i> mumbai</h3>
+            <p> Mumbai — the city that never sleeps! From the historic Gateway of India to the lively streets of Colaba, Mumbai is a blend of dreams, diversity, and dazzling lights. Explore the city’s famous beaches, taste delicious street food, visit iconic film studios, and witness the true spirit of India’s financial and cultural capital.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+     </div>
+     <div class="price"> ₹5000 <span>₹6000</span> </div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+         <div class="box">
+        <div class="image">
+          <img src="img2.jpeg" alt="image">
+          <div class="content"></div>
+          <h3><i class="fas fa-map-marker-alt"></i> kolkata</h3>
+            <p> Kolkata — the City of Joy, where culture, art, and heritage come alive! From the grand Howrah Bridge to the peaceful ghats of the Hooghly River, every corner of the city tells a timeless story. Explore its colonial architecture, taste the famous Bengali sweets, and feel the warmth of its people as you discover one of India’s most soulful cities.
+</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+     </div>
+     <div class="price"> ₹4000 <span>₹6000</span> </div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+         <div class="box">
+        <div class="image">
+          <img src="img3.avif" alt="image">
+          <div class="content"></div>
+          <h3><i class="fas fa-map-marker-alt"></i>pune</h3>
+            <p>  Pune — the cultural capital of Maharashtra — is a city that beautifully blends history with modernity. Known for its grand forts, serene temples, and youthful vibe, Pune offers a perfect mix of tradition and progress. From the historic Shaniwar Wada to the peaceful hills of Lonavala nearby, every corner of Pune has something special to offer.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+     </div>
+     <div class="price"> ₹7000 <span>₹9000</span> </div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+         <div class="box">
+        <div class="image">
+          <img src="img4.jpeg" alt="image">
+          <div class="content"></div>
+          <h3><i class="fas fa-map-marker-alt"></i>delhi</h3>
+            <p>Delhi — the heart of India — is a city where history and modernity live side by side. From the majestic Red Fort and Qutub Minar to the peaceful Lotus Temple and bustling Chandni Chowk, every corner of Delhi has a story to tell. Explore grand monuments, taste mouthwatering street food, and experience the vibrant spirit that defines this incredible city.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+     </div>
+     <div class="price"> ₹5000 <span>₹7000</span> </div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+         <div class="box">
+        <div class="image">
+          <img src="img5.jpeg" alt="image">
+          <div class="content"></div>
+          <h3><i class="fas fa-map-marker-alt"></i>nainital</h3>
+            <p>  Nainital — the City of Lakes — is a charming hill station nestled in the Kumaon region of Uttarakhand. Surrounded by lush green mountains and serene lakes, it offers a perfect escape from city life. Enjoy boating on the famous Naini Lake, explore Snow View Point, and take in the breathtaking beauty of nature all around you.
+</p>.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+     </div>
+     <div class="price"> ₹8000 <span>₹10000</span> </div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+         <div class="box">
+        <div class="image">
+          <img src="img6.jpeg" alt="image">
+          <div class="content"></div>
+          <h3><i class="fas fa-map-marker-alt"></i>bangalore </h3>
+            <p> Bangalore — the Silicon Valley of India — is a vibrant city where modern technology meets timeless tradition. Known for its pleasant weather, lush gardens, and lively cafes, Bangalore is perfect for travelers who love a mix of city life and nature. Explore Cubbon Park, Lalbagh Botanical Garden, and the royal Bangalore Palace to experience the charm of this bustling metropolis.
+</p></p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+     </div>
+     <div class="price"> ₹5000 <span>₹8000</span> </div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+         <div class="box">
+        <div class="image">
+          <img src="img7.jpeg" alt="image">
+          <div class="content"></div>
+          <h3><i class="fas fa-map-marker-alt"></i> jaipur</h3>
+            <p> Jaipur — the Pink City of India — is a perfect blend of royal heritage and vibrant culture. Known for its majestic palaces, grand forts, and colorful markets, Jaipur offers travelers a journey through history. Visit the Amber Fort, City Palace, Hawa Mahal, and Jantar Mantar to experience the royal legacy of Rajasthan in its purest form.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+     </div>
+     <div class="price"> ₹5000 <span>₹3000</span> </div>
+          <a href="#" class="btn">book now</a>
+        </div>
+      </div>
+
+      
+  </section>
+  <!-- packages section ends -->
+     <!-- service  section  -->
+      <section class="services" id="services">
+ <h1 class="heading">
+      <span>s</span><span>e</span><span>r</span><span>v</span>
+      <span>i</span><span>c</span><span>e</span><span>s</span>
+    </h1>
+    <div class="box-container">
+      <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotels</h3>
+        <p>we provide the best and affordable hotels for our customers.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p>delicious food and refreshing drinks available at your service.</p>
+    </div>
+      <div class="box">
+        <i class="fas fa-bus"></i>
+        <h3>travel guide</h3>
+        <p>experienced travel guides to make your journey memorable.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>worldwide tours</h3>
+        <p>explore tours across the globe with our expert planning.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>we ensure the fastest travel options for your convenience.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-headset"></i>
+        <h3>24/7 support</h3>
+        <p>our support team is available 24/7 to assist you.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safe guide</h3>
+        <p>our support team is available 24/7 to assist you.</p>
+      </div>
+      <div class="box">
+        <i class="fas fa-wallet"></i>
+        <h3>affordable price</h3>
+        <p>we offer competitive prices without compromising on quality.</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventure</h3>
+        <p>Adventure is not just about reaching a destination — it’s about embracing the journey.</p>
+      </div>
+    </div>
+  </section>
+  <!-- gallery section ends -->
+<!-- gallery section starts -->
+<section class="gallery" id="gallery">
+  <h1 class="heading">
+    <span>g</span><span>a</span><span>l</span><span>l</span>
+    <span>e</span><span>r</span><span>y</span>
+  </h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="g1.jpg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p>  Explore the beauty of the world through our travel gallery! From snow-capped mountains and golden beaches to ancient monuments and vibrant cityscapes — our gallery captures the unforgettable moments from our travelers’ adventures. Each picture tells a story of discovery, joy, and exploration. Get inspired and start planning your next journey with us!</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="g2.jpeg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p>>
+  Step into our gallery and relive the magic of travel — where every image captures a moment of wonder, excitement, and discovery. From misty mountains and tropical beaches to bustling cityscapes and quiet countryside roads, our gallery brings you closer to the beauty of the world. Let these pictures inspire your next great adventure.</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="g3.jpeg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p>  Our gallery is more than just a collection of photos — it’s a window into the experiences of our travelers. Each image reflects a story of adventure, friendship, and cultural discovery. Browse through the smiles, sights, and moments that make every trip unforgettable.</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="g4.jpeg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p> Discover your next travel destination through our gallery! Get inspired by the scenic views, local traditions, and real travel experiences of our happy customers. Each image reflects our promise of quality, comfort, and adventure. Let your imagination wander — your next vacation awaits!</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="g5.jpeg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p> Welcome to our travel gallery — a collection of breathtaking destinations and unforgettable experiences! Each snapshot reflects the beauty of nature, diverse cultures, and the joy of exploring new horizons. From serene beaches to adventurous mountain treks, our gallery celebrates the spirit of travel and the memories created along the way..</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="g6.jpeg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p>explore the unexplored with our adventure tours.</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="g7.jpeg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p> Every picture in our gallery tells a story — a story of laughter shared, sunsets admired, and dreams fulfilled. Whether you seek adventure, peace, or cultural exploration, our gallery will take you on a visual journey across the world’s most stunning destinations..</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="g8.jpeg" alt="image">
+      <div class="content">
+        <h3>beautiful places</h3>
+        <p> Our gallery showcases the beauty of the world, one destination at a time. Browse through our collection of stunning travel moments and discover the wonders that await you on your next journey.</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- gallery section ends -->
+  <!-- review section starts -->
+<section class="review" id="review">
+ <h1 class="heading">
+    <span>r</span><span>e</span><span>v</span><span>i</span>
+    <span>e</span><span>w</span>
+  </h1>
+  <div class=" review-slider">
+  <div class="slide-track">
+    <div class="box">
+      <img src="user1.jpeg" alt="image">
+      <h3>riya kumari</h3>
+      <p>had an amazing experience with the travel agency. everything was well-organized and the destinations were breathtaking.</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="user2.jpeg" alt="image">
+      <h3>kundan sahu</h3>
+      <p>the tour guides were knowledgeable and friendly. i felt safe and well taken care of throughout the trip.</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="user3.jpeg" alt="image">
+      <h3>ankit day sah</h3>
+      <p>"The Kashmir tour was breathtaking. The hotel and food arrangements were perfect. Thank you for this unforgettable experience!"</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+     <div class="box">
+      <img src="user4.jpeg" alt="image">
+      <h3>neha dhayani</h3>
+      <p>i highly recommend this travel agency for their excellent service and attention to detail. my vacation was unforgettable!</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+     <div class="box">
+      <img src="user5.jpeg" alt="image">
+      <h3>kritika</h3>
+      <p>"Loved the trip to Goa! Great service, timely support, and beautiful destinations."<</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+     <div class="box">
+      <img src="user6.jpeg" alt="image">
+      <h3>jane smith</h3>
+      <p>"Our trip to Manali was perfectly organized! The guide was friendly, and the stay was comfortable. Highly recommended!"</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+        <div class="box">
+      <img src="g6.jpeg" alt="image">
+      <h3>gayatri arjee</h3>
+      <p>"Amazing experience! The travel team managed everything so well. I’ll definitely book again."</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+        <div class="box">
+      <img src="g5.jpeg" alt="image">
+      <h3>puja sharma</h3>
+      <p>"Booking was super easy, and the team was responsive to all my queries. Great service overall!"</p>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- review section ends -->
+ <!-- contact section  -->
+<section class="contact" id="contact">
+  <h1 class="heading">    
+    <span>c</span><span>o</span><span>n</span><span>t</span>
+    <span>a</span><span>c</span><span>t</span>
+  </h1>
+  <div class="row">
+    <div class="image">
+      <img src="g1.jpg" alt="image">
+    </div>
+    <form action="">
+      <div class="inputBox">
+        <input type="text" placeholder=" enter your name">
+        <input type="email" placeholder=" enter your email">
+      </div>
+      <div class="inputBox">
+        <input type="text" placeholder="subject">
+        <input type="text" placeholder="enter your phone number">
+      </div>
+      <textarea placeholder="message" cols="30" rows="10"></textarea>
+      <input type="submit" value="send message" class="btn">
+    </form>
+
+  <script src="script.js" defer></script>
+
+  <!-- footer section starts -->
+<footer class="footer">
+  <div class="box-container">
+
+    <div class="box">
+      <h1><i class="fas fa-map-marker-alt"></i> Tour & Travel</h1>
+      <p>Explore the world with us! Adventure, comfort, and memories — all in one place.</p>
+      <p>We are committed to offering you the best travel experiences with unbeatable prices and excellent service. Connect with us today and start your journey around the world!</p>
+
+    </div>
+
+    <div class="box">
+      <h3>Quick Links</h3>
+      <h2><<a href="#home"><i class="fas fa-angle-right"></i> Home</a>
+      <a href="#book"><i class="fas fa-angle-right"></i> Book</a>
+      <a href="#services"><i class="fas fa-angle-right"></i> Services</a>
+      <a href="#gallery"><i class="fas fa-angle-right"></i> Gallery</a>
+      <a href="#review"><i class="fas fa-angle-right"></i> Review</a>
+      <a href="#contact"><i class="fas fa-angle-right"></i> Contact</a></h2>
+    </div>
+
+    <div class="box">
+      <h1>Follow Us</h1>
+      <h2><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></h2>
+    </div>
+
+    <div class="box">
+      <h1>Contact Info</h1>
+     <h3><p><i class="fas fa-phone"></i> +91 98765 43210</p>
+      <p><i class="fas fa-envelope"></i> info@tourtravel.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> Delhi, India</p></h3> 
+      <p>Thank you for visiting! Whether you’re planning your next getaway or just dreaming of one, we’re here to make your travel simple, safe, and exciting.</p>
+
+    </div>
+
+  </div>
+
+
+</footer>
+<!-- footer section ends -->
+
+
+</body>
+</html>
